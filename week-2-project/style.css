@@ -1,0 +1,299 @@
+.background1{
+    background-color: darkblue;
+    width: 1300px;
+    height: 70px;
+    margin-left: 20px;
+}
+.background2{
+    background-color: skyblue;
+    color: white;
+    width: 1300px;
+    height: 1550px;
+    margin-left: 20px;
+}
+.background3{
+    background-color: grey;
+    width: 1300px;
+    height: 330px;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+.line1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    /* justify-content:space-around */
+}
+.heading{
+    font-family: 'Sacramento', cursive;
+}
+#heading{
+    margin-left: 50px;
+    padding-bottom: -60px;
+}
+#home{
+    margin-left: 100px;
+}
+#about{
+    padding-left: 90px;
+}
+#contact{
+    padding-left: 100px;
+}
+#content{
+    padding-left: 110px;
+}
+#searchbox{
+    padding-left: 150px;
+}
+.coverpic{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.coverpic img{
+    height: 400px;
+    width: 1200px;
+}
+#latestqoutesmeme{
+    margin-left: 580px;
+}
+.latestqoutespic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.topcontentimg{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5%;
+    grid-template-rows: 75%;
+    justify-content: space-around;
+    margin-left: -70px;
+    margin-right: 70px;
+}
+.downloadassest img{
+    color: white;
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+}
+a{
+    color: white;
+}
+.bottomline{
+    display: grid;
+    grid-template-rows: 25%  35%;
+    grid-template-columns: 2% 2% 2%;
+    justify-content: space-evenly;
+    margin-left: 600px;
+    margin-top:  -100px;
+    color: white;
+}
+.background4{
+    background-color: rgb(69, 115, 212);
+    width: 1300px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.background4 h1,h2{
+    padding-left: 100px;
+    padding-top: 100px;
+    color: white;
+}
+#ourmission{
+    background-color: cadetblue;
+    width: 1300px;
+    height: 450px;
+    margin-left: 20px;
+    color: white;
+}
+#ourteam{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#ourteam img{
+    width: 300px;
+    height: 300px;
+}
+.role{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+}
+.role h2{
+    color:black;
+    margin-top: -80px;
+    margin-left: -60px;
+    padding-left: 100px;
+}
+.content{
+    background-color: teal;
+    width: 1300px;
+    height: 1500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+}
+.content img{
+  margin-left: 70px;
+  margin-top:20px;
+  height:300px
+}
+.contact{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+@media(max-width: 800px){
+.background1{
+    background-color: violet;
+    width: auto;
+    height: auto;
+ }
+.background2{
+    background-color: crimson;
+    color: white;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+}
+.background3{
+    background-color: grey;
+    width: 1300px;
+    height: 330px;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+.line1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    /* justify-content:space-around */
+}
+.heading{
+    font-family: 'Sacramento', cursive;
+}
+#heading{
+    margin-left: 50px;
+    padding-bottom: -60px;
+}
+#home{
+    margin-left: 100px;
+}
+#about{
+    padding-left: 90px;
+}
+#contact{
+    padding-left: 100px;
+}
+#content{
+    padding-left: 110px;
+}
+#searchbox{
+    padding-left: 150px;
+}
+.coverpic{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.coverpic img{
+    height: 400px;
+    width: 1200px;
+}
+#latestqoutesmeme{
+    margin-left: 580px;
+}
+.latestqoutespic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.topcontentimg{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5%;
+    grid-template-rows: 75%;
+    justify-content: space-around;
+    margin-left: -70px;
+    margin-right: 70px;
+}
+.downloadassest img{
+    color: white;
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+}
+a{
+    color: white;
+}
+.bottomline{
+    display: grid;
+    grid-template-rows: 25%  35%;
+    grid-template-columns: 2% 2% 2%;
+    justify-content: space-evenly;
+    margin-left: 600px;
+    margin-top:  -100px;
+    color: white;
+}
+.background4{
+    background-color: rgb(69, 115, 212);
+    width: 1300px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.background4 h1,h2{
+    padding-left: 100px;
+    padding-top: 100px;
+    color: white;
+}
+#ourmission{
+    background-color: cadetblue;
+    width: 1300px;
+    height: 450px;
+    margin-left: 20px;
+    color: white;
+}
+#ourteam{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#ourteam img{
+    width: 300px;
+    height: 300px;
+}
+.role{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+}
+.role h2{
+    color:black;
+    margin-top: -80px;
+    margin-left: -60px;
+    padding-left: 100px;
+}
+.content{
+    background-color: teal;
+    width: 1300px;
+    height: 1500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-evenly;
+}
+.content img{
+  margin-left: 70px;
+  margin-top:20px;
+  height:300px
+}
+.contact{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+}
